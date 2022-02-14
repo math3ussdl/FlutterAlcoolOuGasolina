@@ -1,0 +1,33 @@
+name: alcohol_or_gasoline
+description: A Flutter Alcohol or Gasoline app.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  mask: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/aog-white.png
+  
+  fonts:
+    - family: Big Shoulders Display
+      fonts:
+        - asset: assets/fonts/BigShouldersDisplay-Light.ttf
